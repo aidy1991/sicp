@@ -1,0 +1,3 @@
+#Structure and Interpretation of Computer Programs
+個人的にSICPを勉強した過程を残しています．
+SchemeではなくJavascriptを用いて演習等をこなしていきます．
