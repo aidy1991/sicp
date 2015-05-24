@@ -11,10 +11,10 @@ http://www.comp.nus.edu.sg/~cs1101s/sicp/
 - Chapter 1
  - [ ] Exercise 1.1
  - [ ] Exercise 1.2
- - [ ] Exercise 1.3
- - [ ] Exercise 1.4
- - [ ] Exercise 1.5
- - [ ] Exercise 1.6
+ - [x] Exercise 1.3
+ - [x] Exercise 1.4
+ - [x] Exercise 1.5
+ - [x] Exercise 1.6
  - [ ] Exercise 1.7
  - [ ] Exercise 1.8
  - [ ] Exercise 1.9
