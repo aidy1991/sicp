@@ -9,13 +9,13 @@ function average(a, b){
 }
 
 function sqrt(x){
-  return sqrt_iter(1, x);
+  return sqrtIter(1, x);
 }
 function sqrt2(x){
-  return sqrt_iter2(1, x);
+  return sqrtIter2(1, x);
 }
 
-function good_enough(a, b){
+function isGoodEnough(a, b){
   return abs(a - b) < 0.0001;
 }
 
@@ -23,20 +23,20 @@ function abs(x){
   return (x > 0) ? x : -x;
 }
 
-function sqrt_iter(guess, x){
-  if(good_enough(guess * guess, x)){
+function sqrtIter(guess, x){
+  if(isGoodEnough(guess * guess, x)){
     return guess;
   }else{
-    return sqrt_iter(improve(guess, x), x);
+    return sqrtIter(improve(guess, x), x);
   }
 }
 
-function sqrt_iter2(guess, x){
+function sqrtIter2(guess, x){
   var improved = improve(guess, x);
-  if(good_enough(improved, guess)){
+  if(isGoodEnough(improved, guess)){
     return improved;
   }else{
-    return sqrt_iter2(improved, x);
+    return sqrtIter2(improved, x);
   }
 }
 
