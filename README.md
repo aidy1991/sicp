@@ -56,3 +56,4 @@ http://www.comp.nus.edu.sg/~cs1101s/sicp/
  - [ ] Exercise 1.45
  - [ ] Exercise 1.46
 - Chapter 2
+ - [ ] Exercise 2.1
